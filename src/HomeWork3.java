@@ -59,7 +59,7 @@ public class HomeWork3 {
 
         // задание 5
         int monthNumber = 12;
-        String partOfTheYear = "Месяц задан не верно";
+        String partOfTheYear;
         //вместо default тут можно вставить условие на выполнение switch-case:
         //if (monthNumber > 0 && monthNumber < 13) { switch-case }
         //но я не стал этого делать, default нормально отрабатывает
