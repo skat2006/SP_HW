@@ -12,43 +12,40 @@ public class HomeWork5 {
             weight[i] = i + 1;
         }
 
-        // задача 2
         System.out.println("Task 2:");
-        for (int iVar : weight) {
-            System.out.print(iVar + ", ");
+        for (int i = 0; i < weight.length-1; i++) {
+            System.out.print(weight[i] + ", ");
         }
-        System.out.println();
-        for (float fVar : fWeight) {
-            System.out.print(fVar + ", ");
+        System.out.println(weight[weight.length-1]);
+        for (int i = 0; i < fWeight.length-1; i++) {
+            System.out.print(fWeight[i] + ", ");
         }
-        System.out.println();
-        for (int iVar : random) {
-            System.out.print(iVar + ", ");
+        System.out.println(fWeight[fWeight.length-1]);
+        for (int i = 0; i < random.length-1; i++) {
+            System.out.print(random[i] + ", ");
         }
-        System.out.println();
+        System.out.println(random[random.length-1]);
 
-        // задача 3
         System.out.println("Task 3:");
-        for (int i = weight.length; i > 0; i--) {
-            System.out.print(weight[i - 1] + ", ");
+        for (int i = weight.length-1; i > 0; i--) {
+            System.out.print(weight[i] + ", ");
         }
-        System.out.println();
-        for (int i = fWeight.length; i > 0; i--) {
-            System.out.print(fWeight[i - 1] + ", ");
+        System.out.println(weight[0]);
+        for (int i = fWeight.length-1; i > 0; i--) {
+            System.out.print(fWeight[i] + ", ");
         }
-        System.out.println();
-        for (int i = random.length; i > 0; i--) {
-            System.out.print(random[i - 1] + ", ");
+        System.out.println(fWeight[0]);
+        for (int i = random.length-1; i > 0; i--) {
+            System.out.print(random[i] + ", ");
         }
-        System.out.println();
+        System.out.println(random[0]);
 
-        // задача 4
         System.out.println("Task 4:");
         for (int iVar : weight) {
             if (iVar % 2 != 0) {
                 iVar++;
             }
-            System.out.print(iVar + ", ");
+            System.out.print(iVar + " ");
         }
     }
 }

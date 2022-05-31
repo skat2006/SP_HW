@@ -3,7 +3,7 @@
  */
 public class HomeWork4 {
     public static void main(String[] args) {
-        // задание 1
+        // Задание 1
         int index = 0;
 
         while (index < 10) {
@@ -16,7 +16,7 @@ public class HomeWork4 {
         }
         System.out.println("\nTask1 done!\n");
 
-        // задание 2
+        // Задание 2
         int firstFriday = 3;
 
         for (index = firstFriday; index <= 31; index++) {
@@ -26,7 +26,7 @@ public class HomeWork4 {
         }
         System.out.println("Task2 done!\n");
 
-        // задание 3
+        // Задание 3
         int year = 2022;
         int cometPeriod = 79, minCalcDelta = 200, maxCalcDelta = 100;
         int minCalcYear = year - minCalcDelta;
@@ -39,7 +39,14 @@ public class HomeWork4 {
         }
         System.out.println("Task3 done!\n");
 
-        // задание 4
+
+    /*
+    Необходимо пройти циклом по числам от 1 до 30 включительно и, если число делится на 3 без остатка,
+    вывести ping, а если число делится на 5 без остатка, вывести pong.
+    Если число делится без остатка и на 3, и на 5, необходимо вывести ping pong.
+    Допускается наличие пустых строк в выводе.
+    */
+        // Здание 4
         for (int i = 1; i < 31; i++) {
             String outString = "";
             if (i % 3 == 0) {
@@ -52,7 +59,13 @@ public class HomeWork4 {
         }
         System.out.println("Task4 done!\n");
 
-        // задание 5
+    /*
+    Вывести первые 10 чисел последовательности Фибоначчи. Последовательность строится по следующему правилу:
+    – Каждое следующее число равняется сумме двух предыдущих.
+    Дано: две целочисленные переменные, первая равна 0, вторая равна 1.
+    Эти два числа — первые числа последовательности. Следующие восемь нужно вычислить и вывести.
+    */
+        // Задание 5
         int current = 0, next = 1;
 
         for (int i = 0; i < 10; i = i + 2) {
